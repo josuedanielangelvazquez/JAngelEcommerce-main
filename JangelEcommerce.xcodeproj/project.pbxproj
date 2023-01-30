@@ -1,0 +1,1215 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A744C02729875CBA002B93F8 /* InicialTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A744C02629875CBA002B93F8 /* InicialTabBarViewController.swift */; };
+		A744C03629878058002B93F8 /* ProductoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A744C03429878058002B93F8 /* ProductoTableViewCell.swift */; };
+		A744C03729878058002B93F8 /* ProductoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A744C03529878058002B93F8 /* ProductoTableViewCell.xib */; };
+		ABBB351290A6FEF087B311A2 /* Pods_JangelEcommerce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E420C8987327E120BE5F2469 /* Pods_JangelEcommerce.framework */; };
+		FB0422D1296E32BB004F19A2 /* ProveedorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0422D0296E32BB004F19A2 /* ProveedorViewModel.swift */; };
+		FB0F5CA2295F554B00B73C07 /* GetAllTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0F5CA1295F554B00B73C07 /* GetAllTableViewController.swift */; };
+		FB19A5C42970783E00214555 /* ProductoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB19A5C32970783E00214555 /* ProductoCollectionViewController.swift */; };
+		FB19D79229774A5100E9035D /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = FB19D79129774A5100E9035D /* FirebaseStorage */; };
+		FB19D79529774C8100E9035D /* JangelEcommerceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB19D78A29774A4500E9035D /* JangelEcommerceTests.swift */; };
+		FB1B7AD72982F2F9002E416B /* Venta.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1B7AD62982F2F9002E416B /* Venta.swift */; };
+		FB1B7AD92982F41C002E416B /* VentaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1B7AD82982F41C002E416B /* VentaViewModel.swift */; };
+		FB1B7ADC2983119B002E416B /* VentaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1B7ADB2983119B002E416B /* VentaViewController.swift */; };
+		FB1F4A382971E29E005F844F /* DepartamentoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1F4A362971E29E005F844F /* DepartamentoCollectionViewCell.swift */; };
+		FB1F4A392971E29E005F844F /* DepartamentoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB1F4A372971E29E005F844F /* DepartamentoCollectionViewCell.xib */; };
+		FB30CE1E296F3C3B00DD6585 /* AreaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB30CE1D296F3C3B00DD6585 /* AreaViewModel.swift */; };
+		FB4579A32968D28E003CBCC1 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4579A22968D28E003CBCC1 /* Usuario.swift */; };
+		FB4579A62968D359003CBCC1 /* UusarioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4579A52968D359003CBCC1 /* UusarioViewModel.swift */; };
+		FB4CAF48295BC25200E060CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4CAF47295BC25200E060CA /* AppDelegate.swift */; };
+		FB4CAF4A295BC25200E060CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4CAF49295BC25200E060CA /* SceneDelegate.swift */; };
+		FB4CAF4C295BC25200E060CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4CAF4B295BC25200E060CA /* ViewController.swift */; };
+		FB4CAF4F295BC25200E060CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB4CAF4D295BC25200E060CA /* Main.storyboard */; };
+		FB4CAF52295BC25200E060CA /* JangelEcommerce.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB4CAF50295BC25200E060CA /* JangelEcommerce.xcdatamodeld */; };
+		FB4CAF54295BC25300E060CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4CAF53295BC25300E060CA /* Assets.xcassets */; };
+		FB4CAF57295BC25300E060CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB4CAF55295BC25300E060CA /* LaunchScreen.storyboard */; };
+		FB4CAF63295BC2AB00E060CA /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4CAF62295BC2AB00E060CA /* DB.swift */; };
+		FB504D3829663D9300B2C1EF /* DepartamentoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB504D3729663D9300B2C1EF /* DepartamentoViewModel.swift */; };
+		FB504D3B29663FA200B2C1EF /* DepartamentoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB504D3A29663FA200B2C1EF /* DepartamentoTableViewController.swift */; };
+		FB542C69297F0C3200CA3AEE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB542C68297F0C3200CA3AEE /* DetailViewController.swift */; };
+		FB542C6B297F12F400CA3AEE /* pruebasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB542C6A297F12F400CA3AEE /* pruebasTableViewController.swift */; };
+		FB542C6E297F166C00CA3AEE /* DetailProductoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB542C6C297F166C00CA3AEE /* DetailProductoTableViewCell.swift */; };
+		FB778D43295FB49E0006E014 /* imageNotFound.png in Resources */ = {isa = PBXBuildFile; fileRef = FB778D42295FB49E0006E014 /* imageNotFound.png */; };
+		FB7B38DD2970D4110001CA61 /* ProductoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7B38DB2970D4110001CA61 /* ProductoCollectionViewCell.swift */; };
+		FB8CD13E297880960058145A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FB8CD13D297880960058145A /* FirebaseAuth */; };
+		FB95A36A2968A603001C69F6 /* UsuarioFormController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB95A3692968A603001C69F6 /* UsuarioFormController.swift */; };
+		FB989A482975DC1A00C1DC6E /* BusquedaEspecificaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB989A472975DC1A00C1DC6E /* BusquedaEspecificaViewController.swift */; };
+		FB9BCC4C296DC8BC00E3FC53 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB9BCC4B296DC8BC00E3FC53 /* GoogleService-Info.plist */; };
+		FB9BCC4F296DCB4F00E3FC53 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = FB9BCC4E296DCB4F00E3FC53 /* FirebaseAnalytics */; };
+		FB9BCC51296DCB4F00E3FC53 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = FB9BCC50296DCB4F00E3FC53 /* FirebaseAnalyticsOnDeviceConversion */; };
+		FB9BCC53296DCB4F00E3FC53 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FB9BCC52296DCB4F00E3FC53 /* FirebaseAnalyticsSwift */; };
+		FB9BCC55296DCB4F00E3FC53 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = FB9BCC54296DCB4F00E3FC53 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		FB9BCC57296DCB4F00E3FC53 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = FB9BCC56296DCB4F00E3FC53 /* FirebaseDatabase */; };
+		FB9BCC5B296DCB4F00E3FC53 /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = FB9BCC5A296DCB4F00E3FC53 /* FirebaseDynamicLinks */; };
+		FB9BCC5F296E1D6900E3FC53 /* Registrarse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9BCC5E296E1D6900E3FC53 /* Registrarse.swift */; };
+		FB9E2C9D296C795100534AC0 /* UsuarioTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9E2C9C296C795100534AC0 /* UsuarioTableViewController.swift */; };
+		FB9E2CA0296C7B2C00534AC0 /* usuarioTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9E2C9E296C7B2C00534AC0 /* usuarioTableViewCell.swift */; };
+		FB9E2CA1296C7B2C00534AC0 /* usuarioTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB9E2C9F296C7B2C00534AC0 /* usuarioTableViewCell.xib */; };
+		FBA0C960297B01D20066D49E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = FBA0C95F297B01D20066D49E /* FirebaseFirestore */; };
+		FBA421E82971BF9B005C994B /* AreaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA421E62971BF9B005C994B /* AreaCollectionViewCell.swift */; };
+		FBA421EB2971CE28005C994B /* DepartamentoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA421EA2971CE28005C994B /* DepartamentoCollectionViewController.swift */; };
+		FBAA954129805EA9008562A2 /* Carrito.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAA954029805EA9008562A2 /* Carrito.swift */; };
+		FBAA954629805FEC008562A2 /* CarritoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAA954529805FEC008562A2 /* CarritoViewModel.swift */; };
+		FBAA954829808BC8008562A2 /* CarritoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAA954729808BC8008562A2 /* CarritoViewController.swift */; };
+		FBB40CD6295CD1C80074C1DA /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB40CD5295CD1C80074C1DA /* Producto.swift */; };
+		FBB40CD8295CD1DC0074C1DA /* Proveedor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB40CD7295CD1DC0074C1DA /* Proveedor.swift */; };
+		FBB40CDA295CD1F60074C1DA /* Departamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB40CD9295CD1F60074C1DA /* Departamento.swift */; };
+		FBB40CDC295CD2030074C1DA /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB40CDB295CD2030074C1DA /* Area.swift */; };
+		FBB40CDE295CD4380074C1DA /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB40CDD295CD4380074C1DA /* Result.swift */; };
+		FBB40CE0295CE6840074C1DA /* ProductoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB40CDF295CE6840074C1DA /* ProductoViewModel.swift */; };
+		FBC2FC8029819859001A4A1C /* CarritoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBC2FC7F29819858001A4A1C /* CarritoTableViewCell.xib */; };
+		FBC65B7829678269009D9E3A /* DepartamentoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC65B7729678269009D9E3A /* DepartamentoController.swift */; };
+		FBCB293529776CCA0073B061 /* usuariologin.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCB293429776CCA0073B061 /* usuariologin.swift */; };
+		FBCB293D297771830073B061 /* JangelEcommerceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCB293C297771830073B061 /* JangelEcommerceUITests.swift */; };
+		FBCB293F297771830073B061 /* JangelEcommerceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCB293E297771830073B061 /* JangelEcommerceUITestsLaunchTests.swift */; };
+		FBCB2945297773540073B061 /* JangelEcommerceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCB293E297771830073B061 /* JangelEcommerceUITestsLaunchTests.swift */; };
+		FBDF9F712966411D00B29E85 /* DepartamentoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDF9F6F2966411D00B29E85 /* DepartamentoTableViewCell.swift */; };
+		FBDF9F722966411D00B29E85 /* DepartamentoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBDF9F702966411D00B29E85 /* DepartamentoTableViewCell.xib */; };
+		FBE4C1F52970DB7300C20E78 /* ProductoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE4C1F42970DB7300C20E78 /* ProductoCollectionViewCell.xib */; };
+		FBE4C1F92970DDB000C20E78 /* AreaCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE4C1F82970DDB000C20E78 /* AreaCollectionViewController.swift */; };
+		FBE751E8298477620070B658 /* CompraFinalizadaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE751E7298477620070B658 /* CompraFinalizadaViewController.swift */; };
+		FBFC9C972981980F001B88FA /* DetailProductoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBFC9C962981980F001B88FA /* DetailProductoTableViewCell.xib */; };
+		FBFC9C9A29819838001B88FA /* CarritoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFC9C9829819838001B88FA /* CarritoTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB19D78C29774A4500E9035D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB4CAF3C295BC25100E060CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB4CAF43295BC25200E060CA;
+			remoteInfo = JangelEcommerce;
+		};
+		FBCB2940297771830073B061 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB4CAF3C295BC25100E060CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB4CAF43295BC25200E060CA;
+			remoteInfo = JangelEcommerce;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2AA061977D82F1EFEF73160C /* Pods-JangelEcommerce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JangelEcommerce.release.xcconfig"; path = "Target Support Files/Pods-JangelEcommerce/Pods-JangelEcommerce.release.xcconfig"; sourceTree = "<group>"; };
+		76C8F0705FC66BF9DED8AFFA /* Pods-JangelEcommerce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JangelEcommerce.debug.xcconfig"; path = "Target Support Files/Pods-JangelEcommerce/Pods-JangelEcommerce.debug.xcconfig"; sourceTree = "<group>"; };
+		A744C02629875CBA002B93F8 /* InicialTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicialTabBarViewController.swift; sourceTree = "<group>"; };
+		A744C03429878058002B93F8 /* ProductoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoTableViewCell.swift; sourceTree = "<group>"; };
+		A744C03529878058002B93F8 /* ProductoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductoTableViewCell.xib; sourceTree = "<group>"; };
+		E420C8987327E120BE5F2469 /* Pods_JangelEcommerce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JangelEcommerce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0422D0296E32BB004F19A2 /* ProveedorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProveedorViewModel.swift; sourceTree = "<group>"; };
+		FB0F5CA1295F554B00B73C07 /* GetAllTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllTableViewController.swift; sourceTree = "<group>"; };
+		FB19A5C32970783E00214555 /* ProductoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoCollectionViewController.swift; sourceTree = "<group>"; };
+		FB19D78829774A4500E9035D /* JangelEcommerceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JangelEcommerceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB19D78A29774A4500E9035D /* JangelEcommerceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JangelEcommerceTests.swift; sourceTree = "<group>"; };
+		FB1B7AD62982F2F9002E416B /* Venta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venta.swift; sourceTree = "<group>"; };
+		FB1B7AD82982F41C002E416B /* VentaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VentaViewModel.swift; sourceTree = "<group>"; };
+		FB1B7ADB2983119B002E416B /* VentaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VentaViewController.swift; sourceTree = "<group>"; };
+		FB1F4A362971E29E005F844F /* DepartamentoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartamentoCollectionViewCell.swift; sourceTree = "<group>"; };
+		FB1F4A372971E29E005F844F /* DepartamentoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DepartamentoCollectionViewCell.xib; sourceTree = "<group>"; };
+		FB30CE1D296F3C3B00DD6585 /* AreaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaViewModel.swift; sourceTree = "<group>"; };
+		FB4579A22968D28E003CBCC1 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		FB4579A52968D359003CBCC1 /* UusarioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UusarioViewModel.swift; sourceTree = "<group>"; };
+		FB4CAF44295BC25200E060CA /* JangelEcommerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JangelEcommerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB4CAF47295BC25200E060CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB4CAF49295BC25200E060CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FB4CAF4B295BC25200E060CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB4CAF4E295BC25200E060CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB4CAF51295BC25200E060CA /* JangelEcommerce.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JangelEcommerce.xcdatamodel; sourceTree = "<group>"; };
+		FB4CAF53295BC25300E060CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB4CAF56295BC25300E060CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB4CAF58295BC25300E060CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB4CAF62295BC2AB00E060CA /* DB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DB.swift; sourceTree = "<group>"; };
+		FB504D3729663D9300B2C1EF /* DepartamentoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartamentoViewModel.swift; sourceTree = "<group>"; };
+		FB504D3A29663FA200B2C1EF /* DepartamentoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartamentoTableViewController.swift; sourceTree = "<group>"; };
+		FB542C68297F0C3200CA3AEE /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FB542C6A297F12F400CA3AEE /* pruebasTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pruebasTableViewController.swift; sourceTree = "<group>"; };
+		FB542C6C297F166C00CA3AEE /* DetailProductoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailProductoTableViewCell.swift; sourceTree = "<group>"; };
+		FB778D42295FB49E0006E014 /* imageNotFound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageNotFound.png; sourceTree = "<group>"; };
+		FB7B38DB2970D4110001CA61 /* ProductoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoCollectionViewCell.swift; sourceTree = "<group>"; };
+		FB95A3692968A603001C69F6 /* UsuarioFormController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioFormController.swift; sourceTree = "<group>"; };
+		FB989A472975DC1A00C1DC6E /* BusquedaEspecificaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusquedaEspecificaViewController.swift; sourceTree = "<group>"; };
+		FB9BCC4B296DC8BC00E3FC53 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FB9BCC5E296E1D6900E3FC53 /* Registrarse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registrarse.swift; sourceTree = "<group>"; };
+		FB9E2C9C296C795100534AC0 /* UsuarioTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioTableViewController.swift; sourceTree = "<group>"; };
+		FB9E2C9E296C7B2C00534AC0 /* usuarioTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usuarioTableViewCell.swift; sourceTree = "<group>"; };
+		FB9E2C9F296C7B2C00534AC0 /* usuarioTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = usuarioTableViewCell.xib; sourceTree = "<group>"; };
+		FBA421E62971BF9B005C994B /* AreaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaCollectionViewCell.swift; sourceTree = "<group>"; };
+		FBA421EA2971CE28005C994B /* DepartamentoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartamentoCollectionViewController.swift; sourceTree = "<group>"; };
+		FBAA954029805EA9008562A2 /* Carrito.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carrito.swift; sourceTree = "<group>"; };
+		FBAA954529805FEC008562A2 /* CarritoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarritoViewModel.swift; sourceTree = "<group>"; };
+		FBAA954729808BC8008562A2 /* CarritoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarritoViewController.swift; sourceTree = "<group>"; };
+		FBB40CD5295CD1C80074C1DA /* Producto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Producto.swift; sourceTree = "<group>"; };
+		FBB40CD7295CD1DC0074C1DA /* Proveedor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proveedor.swift; sourceTree = "<group>"; };
+		FBB40CD9295CD1F60074C1DA /* Departamento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Departamento.swift; sourceTree = "<group>"; };
+		FBB40CDB295CD2030074C1DA /* Area.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
+		FBB40CDD295CD4380074C1DA /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		FBB40CDF295CE6840074C1DA /* ProductoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoViewModel.swift; sourceTree = "<group>"; };
+		FBC2FC7F29819858001A4A1C /* CarritoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarritoTableViewCell.xib; sourceTree = "<group>"; };
+		FBC65B7729678269009D9E3A /* DepartamentoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartamentoController.swift; sourceTree = "<group>"; };
+		FBCB293429776CCA0073B061 /* usuariologin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usuariologin.swift; sourceTree = "<group>"; };
+		FBCB293A297771830073B061 /* JangelEcommerceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JangelEcommerceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBCB293C297771830073B061 /* JangelEcommerceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JangelEcommerceUITests.swift; sourceTree = "<group>"; };
+		FBCB293E297771830073B061 /* JangelEcommerceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JangelEcommerceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FBDF9F6F2966411D00B29E85 /* DepartamentoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartamentoTableViewCell.swift; sourceTree = "<group>"; };
+		FBDF9F702966411D00B29E85 /* DepartamentoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DepartamentoTableViewCell.xib; path = ../../Controller/Departamento/DepartamentoTableViewCell.xib; sourceTree = "<group>"; };
+		FBE4C1F42970DB7300C20E78 /* ProductoCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProductoCollectionViewCell.xib; path = View/Producto/ProductoCollectionViewCell.xib; sourceTree = SOURCE_ROOT; };
+		FBE4C1F82970DDB000C20E78 /* AreaCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaCollectionViewController.swift; sourceTree = "<group>"; };
+		FBE751E7298477620070B658 /* CompraFinalizadaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompraFinalizadaViewController.swift; sourceTree = "<group>"; };
+		FBFC9C962981980F001B88FA /* DetailProductoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailProductoTableViewCell.xib; sourceTree = "<group>"; };
+		FBFC9C9829819838001B88FA /* CarritoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarritoTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB19D78529774A4500E9035D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB19D79229774A5100E9035D /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4CAF41295BC25200E060CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9BCC57296DCB4F00E3FC53 /* FirebaseDatabase in Frameworks */,
+				FB9BCC53296DCB4F00E3FC53 /* FirebaseAnalyticsSwift in Frameworks */,
+				FB9BCC5B296DCB4F00E3FC53 /* FirebaseDynamicLinks in Frameworks */,
+				FB9BCC55296DCB4F00E3FC53 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				FB9BCC4F296DCB4F00E3FC53 /* FirebaseAnalytics in Frameworks */,
+				FBA0C960297B01D20066D49E /* FirebaseFirestore in Frameworks */,
+				FB9BCC51296DCB4F00E3FC53 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				ABBB351290A6FEF087B311A2 /* Pods_JangelEcommerce.framework in Frameworks */,
+				FB8CD13E297880960058145A /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBCB2937297771830073B061 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31B7F8A58B31448ECCC6B0E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76C8F0705FC66BF9DED8AFFA /* Pods-JangelEcommerce.debug.xcconfig */,
+				2AA061977D82F1EFEF73160C /* Pods-JangelEcommerce.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8543E58253C555BEF5E76409 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E420C8987327E120BE5F2469 /* Pods_JangelEcommerce.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB0422CD296E3227004F19A2 /* Proveedor */ = {
+			isa = PBXGroup;
+			children = (
+				FB0422D0296E32BB004F19A2 /* ProveedorViewModel.swift */,
+			);
+			path = Proveedor;
+			sourceTree = "<group>";
+		};
+		FB19A5C1297077F100214555 /* Administrador */ = {
+			isa = PBXGroup;
+			children = (
+				FB4CAF4B295BC25200E060CA /* ViewController.swift */,
+				FB0F5CA1295F554B00B73C07 /* GetAllTableViewController.swift */,
+			);
+			path = Administrador;
+			sourceTree = "<group>";
+		};
+		FB19A5C2297077FB00214555 /* Ventas */ = {
+			isa = PBXGroup;
+			children = (
+				FB1B7AD32982F26E002E416B /* Venta */,
+				FB93987A298197B2003CA153 /* Carrito */,
+				FB939879298197A9003CA153 /* Detail */,
+				FB19A5C32970783E00214555 /* ProductoCollectionViewController.swift */,
+				FB7B38DB2970D4110001CA61 /* ProductoCollectionViewCell.swift */,
+			);
+			path = Ventas;
+			sourceTree = "<group>";
+		};
+		FB19D78929774A4500E9035D /* JangelEcommerceTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB19D78A29774A4500E9035D /* JangelEcommerceTests.swift */,
+			);
+			path = JangelEcommerceTests;
+			sourceTree = "<group>";
+		};
+		FB1B7AD32982F26E002E416B /* Venta */ = {
+			isa = PBXGroup;
+			children = (
+				FB1B7ADB2983119B002E416B /* VentaViewController.swift */,
+				FBE751E7298477620070B658 /* CompraFinalizadaViewController.swift */,
+			);
+			path = Venta;
+			sourceTree = "<group>";
+		};
+		FB1F4A342971DF3B005F844F /* Administrativo */ = {
+			isa = PBXGroup;
+			children = (
+				FB504D3A29663FA200B2C1EF /* DepartamentoTableViewController.swift */,
+				FBDF9F6F2966411D00B29E85 /* DepartamentoTableViewCell.swift */,
+				FBC65B7729678269009D9E3A /* DepartamentoController.swift */,
+			);
+			path = Administrativo;
+			sourceTree = "<group>";
+		};
+		FB1F4A352971E278005F844F /* Area */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Area;
+			sourceTree = "<group>";
+		};
+		FB30CE1C296F3BFC00DD6585 /* Area */ = {
+			isa = PBXGroup;
+			children = (
+				FB30CE1D296F3C3B00DD6585 /* AreaViewModel.swift */,
+			);
+			path = Area;
+			sourceTree = "<group>";
+		};
+		FB4579A42968D345003CBCC1 /* Usuario */ = {
+			isa = PBXGroup;
+			children = (
+				FB4579A52968D359003CBCC1 /* UusarioViewModel.swift */,
+			);
+			path = Usuario;
+			sourceTree = "<group>";
+		};
+		FB4CAF3B295BC25100E060CA = {
+			isa = PBXGroup;
+			children = (
+				FB542C6A297F12F400CA3AEE /* pruebasTableViewController.swift */,
+				FB4CAF61295BC28D00E060CA /* Controller */,
+				FB4CAF60295BC28600E060CA /* View */,
+				FB4CAF5F295BC27A00E060CA /* ViewModel */,
+				FB4CAF5E295BC27100E060CA /* Model */,
+				FB4CAF46295BC25200E060CA /* JangelEcommerce */,
+				FB19D78929774A4500E9035D /* JangelEcommerceTests */,
+				FBCB293B297771830073B061 /* JangelEcommerceUITests */,
+				FB4CAF45295BC25200E060CA /* Products */,
+				31B7F8A58B31448ECCC6B0E2 /* Pods */,
+				8543E58253C555BEF5E76409 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FB4CAF45295BC25200E060CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB4CAF44295BC25200E060CA /* JangelEcommerce.app */,
+				FB19D78829774A4500E9035D /* JangelEcommerceTests.xctest */,
+				FBCB293A297771830073B061 /* JangelEcommerceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB4CAF46295BC25200E060CA /* JangelEcommerce */ = {
+			isa = PBXGroup;
+			children = (
+				FB4CAF47295BC25200E060CA /* AppDelegate.swift */,
+				FB4CAF49295BC25200E060CA /* SceneDelegate.swift */,
+				FB4CAF53295BC25300E060CA /* Assets.xcassets */,
+				FB778D42295FB49E0006E014 /* imageNotFound.png */,
+				FB4CAF58295BC25300E060CA /* Info.plist */,
+				FB9BCC4B296DC8BC00E3FC53 /* GoogleService-Info.plist */,
+				FB4CAF50295BC25200E060CA /* JangelEcommerce.xcdatamodeld */,
+			);
+			path = JangelEcommerce;
+			sourceTree = "<group>";
+		};
+		FB4CAF5E295BC27100E060CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FBB40CD5295CD1C80074C1DA /* Producto.swift */,
+				FBB40CD7295CD1DC0074C1DA /* Proveedor.swift */,
+				FBB40CD9295CD1F60074C1DA /* Departamento.swift */,
+				FBB40CDB295CD2030074C1DA /* Area.swift */,
+				FBB40CDD295CD4380074C1DA /* Result.swift */,
+				FB4579A22968D28E003CBCC1 /* Usuario.swift */,
+				FBAA954029805EA9008562A2 /* Carrito.swift */,
+				FB1B7AD62982F2F9002E416B /* Venta.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FB4CAF5F295BC27A00E060CA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FB30CE1C296F3BFC00DD6585 /* Area */,
+				FB0422CD296E3227004F19A2 /* Proveedor */,
+				FB4579A42968D345003CBCC1 /* Usuario */,
+				FB504D3629663D6D00B2C1EF /* Departamento */,
+				FB504D3429663CB900B2C1EF /* Producto */,
+				FB4CAF62295BC2AB00E060CA /* DB.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FB4CAF60295BC28600E060CA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FB1F4A352971E278005F844F /* Area */,
+				FB9BCC5C296E194F00E3FC53 /* Usuario */,
+				FB504D40296640D300B2C1EF /* Departamento */,
+				FB504D3229663C7100B2C1EF /* Producto */,
+				FB4CAF4D295BC25200E060CA /* Main.storyboard */,
+				FB4CAF55295BC25300E060CA /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FB4CAF61295BC28D00E060CA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FBE4C1F72970DD8700C20E78 /* Area */,
+				FB9BCC5D296E1D3C00E3FC53 /* Registrarse */,
+				FB95A3682968A5F4001C69F6 /* Usuario */,
+				FB504D3929663F8800B2C1EF /* Departamento */,
+				FB778D41295F98C80006E014 /* Producto */,
+				A744C02629875CBA002B93F8 /* InicialTabBarViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FB504D3229663C7100B2C1EF /* Producto */ = {
+			isa = PBXGroup;
+			children = (
+				A744C03529878058002B93F8 /* ProductoTableViewCell.xib */,
+				FB93987C298197E4003CA153 /* Carrito */,
+				FB93987B298197DD003CA153 /* Detail */,
+				FBE4C1F42970DB7300C20E78 /* ProductoCollectionViewCell.xib */,
+			);
+			path = Producto;
+			sourceTree = "<group>";
+		};
+		FB504D3429663CB900B2C1EF /* Producto */ = {
+			isa = PBXGroup;
+			children = (
+				FBB40CDF295CE6840074C1DA /* ProductoViewModel.swift */,
+				FBAA954529805FEC008562A2 /* CarritoViewModel.swift */,
+				FB1B7AD82982F41C002E416B /* VentaViewModel.swift */,
+			);
+			path = Producto;
+			sourceTree = "<group>";
+		};
+		FB504D3629663D6D00B2C1EF /* Departamento */ = {
+			isa = PBXGroup;
+			children = (
+				FB504D3729663D9300B2C1EF /* DepartamentoViewModel.swift */,
+			);
+			path = Departamento;
+			sourceTree = "<group>";
+		};
+		FB504D3929663F8800B2C1EF /* Departamento */ = {
+			isa = PBXGroup;
+			children = (
+				FB1F4A342971DF3B005F844F /* Administrativo */,
+				FBE4C1F62970DD6300C20E78 /* Ventas */,
+			);
+			path = Departamento;
+			sourceTree = "<group>";
+		};
+		FB504D40296640D300B2C1EF /* Departamento */ = {
+			isa = PBXGroup;
+			children = (
+				FBDF9F702966411D00B29E85 /* DepartamentoTableViewCell.xib */,
+			);
+			path = Departamento;
+			sourceTree = "<group>";
+		};
+		FB778D41295F98C80006E014 /* Producto */ = {
+			isa = PBXGroup;
+			children = (
+				FB19A5C2297077FB00214555 /* Ventas */,
+				FB19A5C1297077F100214555 /* Administrador */,
+				FB989A472975DC1A00C1DC6E /* BusquedaEspecificaViewController.swift */,
+				A744C03429878058002B93F8 /* ProductoTableViewCell.swift */,
+			);
+			path = Producto;
+			sourceTree = "<group>";
+		};
+		FB939879298197A9003CA153 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				FB542C68297F0C3200CA3AEE /* DetailViewController.swift */,
+				FB542C6C297F166C00CA3AEE /* DetailProductoTableViewCell.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		FB93987A298197B2003CA153 /* Carrito */ = {
+			isa = PBXGroup;
+			children = (
+				FBAA954729808BC8008562A2 /* CarritoViewController.swift */,
+				FBFC9C9829819838001B88FA /* CarritoTableViewCell.swift */,
+			);
+			path = Carrito;
+			sourceTree = "<group>";
+		};
+		FB93987B298197DD003CA153 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				FBFC9C962981980F001B88FA /* DetailProductoTableViewCell.xib */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		FB93987C298197E4003CA153 /* Carrito */ = {
+			isa = PBXGroup;
+			children = (
+				FBC2FC7F29819858001A4A1C /* CarritoTableViewCell.xib */,
+			);
+			path = Carrito;
+			sourceTree = "<group>";
+		};
+		FB95A3682968A5F4001C69F6 /* Usuario */ = {
+			isa = PBXGroup;
+			children = (
+				FB95A3692968A603001C69F6 /* UsuarioFormController.swift */,
+				FB9E2C9E296C7B2C00534AC0 /* usuarioTableViewCell.swift */,
+				FB9E2C9C296C795100534AC0 /* UsuarioTableViewController.swift */,
+				FBCB293429776CCA0073B061 /* usuariologin.swift */,
+			);
+			path = Usuario;
+			sourceTree = "<group>";
+		};
+		FB9BCC5C296E194F00E3FC53 /* Usuario */ = {
+			isa = PBXGroup;
+			children = (
+				FB9E2C9F296C7B2C00534AC0 /* usuarioTableViewCell.xib */,
+			);
+			path = Usuario;
+			sourceTree = "<group>";
+		};
+		FB9BCC5D296E1D3C00E3FC53 /* Registrarse */ = {
+			isa = PBXGroup;
+			children = (
+				FB9BCC5E296E1D6900E3FC53 /* Registrarse.swift */,
+			);
+			path = Registrarse;
+			sourceTree = "<group>";
+		};
+		FBCB293B297771830073B061 /* JangelEcommerceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBCB293C297771830073B061 /* JangelEcommerceUITests.swift */,
+				FBCB293E297771830073B061 /* JangelEcommerceUITestsLaunchTests.swift */,
+			);
+			path = JangelEcommerceUITests;
+			sourceTree = "<group>";
+		};
+		FBE4C1F62970DD6300C20E78 /* Ventas */ = {
+			isa = PBXGroup;
+			children = (
+				FBA421EA2971CE28005C994B /* DepartamentoCollectionViewController.swift */,
+				FB1F4A362971E29E005F844F /* DepartamentoCollectionViewCell.swift */,
+				FB1F4A372971E29E005F844F /* DepartamentoCollectionViewCell.xib */,
+			);
+			path = Ventas;
+			sourceTree = "<group>";
+		};
+		FBE4C1F72970DD8700C20E78 /* Area */ = {
+			isa = PBXGroup;
+			children = (
+				FBE4C1F82970DDB000C20E78 /* AreaCollectionViewController.swift */,
+				FBA421E62971BF9B005C994B /* AreaCollectionViewCell.swift */,
+			);
+			path = Area;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB19D78729774A4500E9035D /* JangelEcommerceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB19D78E29774A4500E9035D /* Build configuration list for PBXNativeTarget "JangelEcommerceTests" */;
+			buildPhases = (
+				FB19D78429774A4500E9035D /* Sources */,
+				FB19D78529774A4500E9035D /* Frameworks */,
+				FB19D78629774A4500E9035D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB19D78D29774A4500E9035D /* PBXTargetDependency */,
+			);
+			name = JangelEcommerceTests;
+			packageProductDependencies = (
+				FB19D79129774A5100E9035D /* FirebaseStorage */,
+			);
+			productName = JangelEcommerceTests;
+			productReference = FB19D78829774A4500E9035D /* JangelEcommerceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB4CAF43295BC25200E060CA /* JangelEcommerce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB4CAF5B295BC25300E060CA /* Build configuration list for PBXNativeTarget "JangelEcommerce" */;
+			buildPhases = (
+				3FFBB11D7AD0884724F105D2 /* [CP] Check Pods Manifest.lock */,
+				FB4CAF40295BC25200E060CA /* Sources */,
+				FB4CAF41295BC25200E060CA /* Frameworks */,
+				FB4CAF42295BC25200E060CA /* Resources */,
+				760FC15E98937E23A1883C74 /* [CP] Embed Pods Frameworks */,
+				FBBE133C29786E7400BB001A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JangelEcommerce;
+			packageProductDependencies = (
+				FB9BCC4E296DCB4F00E3FC53 /* FirebaseAnalytics */,
+				FB9BCC50296DCB4F00E3FC53 /* FirebaseAnalyticsOnDeviceConversion */,
+				FB9BCC52296DCB4F00E3FC53 /* FirebaseAnalyticsSwift */,
+				FB9BCC54296DCB4F00E3FC53 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				FB9BCC56296DCB4F00E3FC53 /* FirebaseDatabase */,
+				FB9BCC5A296DCB4F00E3FC53 /* FirebaseDynamicLinks */,
+				FB8CD13D297880960058145A /* FirebaseAuth */,
+				FBA0C95F297B01D20066D49E /* FirebaseFirestore */,
+			);
+			productName = JangelEcommerce;
+			productReference = FB4CAF44295BC25200E060CA /* JangelEcommerce.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBCB2939297771830073B061 /* JangelEcommerceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBCB2942297771830073B061 /* Build configuration list for PBXNativeTarget "JangelEcommerceUITests" */;
+			buildPhases = (
+				FBCB2936297771830073B061 /* Sources */,
+				FBCB2937297771830073B061 /* Frameworks */,
+				FBCB2938297771830073B061 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBCB2941297771830073B061 /* PBXTargetDependency */,
+			);
+			name = JangelEcommerceUITests;
+			productName = JangelEcommerceUITests;
+			productReference = FBCB293A297771830073B061 /* JangelEcommerceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB4CAF3C295BC25100E060CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					FB19D78729774A4500E9035D = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = FB4CAF43295BC25200E060CA;
+					};
+					FB4CAF43295BC25200E060CA = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					FBCB2939297771830073B061 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = FB4CAF43295BC25200E060CA;
+					};
+				};
+			};
+			buildConfigurationList = FB4CAF3F295BC25100E060CA /* Build configuration list for PBXProject "JangelEcommerce" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB4CAF3B295BC25100E060CA;
+			packageReferences = (
+				FB9BCC4D296DCB4F00E3FC53 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = FB4CAF45295BC25200E060CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB4CAF43295BC25200E060CA /* JangelEcommerce */,
+				FB19D78729774A4500E9035D /* JangelEcommerceTests */,
+				FBCB2939297771830073B061 /* JangelEcommerceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB19D78629774A4500E9035D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4CAF42295BC25200E060CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4CAF57295BC25300E060CA /* LaunchScreen.storyboard in Resources */,
+				FB9BCC4C296DC8BC00E3FC53 /* GoogleService-Info.plist in Resources */,
+				FBE4C1F52970DB7300C20E78 /* ProductoCollectionViewCell.xib in Resources */,
+				FB778D43295FB49E0006E014 /* imageNotFound.png in Resources */,
+				FBC2FC8029819859001A4A1C /* CarritoTableViewCell.xib in Resources */,
+				A744C03729878058002B93F8 /* ProductoTableViewCell.xib in Resources */,
+				FB9E2CA1296C7B2C00534AC0 /* usuarioTableViewCell.xib in Resources */,
+				FB1F4A392971E29E005F844F /* DepartamentoCollectionViewCell.xib in Resources */,
+				FBDF9F722966411D00B29E85 /* DepartamentoTableViewCell.xib in Resources */,
+				FB4CAF54295BC25300E060CA /* Assets.xcassets in Resources */,
+				FB4CAF4F295BC25200E060CA /* Main.storyboard in Resources */,
+				FBFC9C972981980F001B88FA /* DetailProductoTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBCB2938297771830073B061 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FFBB11D7AD0884724F105D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JangelEcommerce-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		760FC15E98937E23A1883C74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JangelEcommerce/Pods-JangelEcommerce-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JangelEcommerce/Pods-JangelEcommerce-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JangelEcommerce/Pods-JangelEcommerce-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBBE133C29786E7400BB001A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}\t\t",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${BUILD_DIR%/Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB19D78429774A4500E9035D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBCB2945297773540073B061 /* JangelEcommerceUITestsLaunchTests.swift in Sources */,
+				FB19D79529774C8100E9035D /* JangelEcommerceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4CAF40295BC25200E060CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBA421E82971BF9B005C994B /* AreaCollectionViewCell.swift in Sources */,
+				FB542C69297F0C3200CA3AEE /* DetailViewController.swift in Sources */,
+				A744C03629878058002B93F8 /* ProductoTableViewCell.swift in Sources */,
+				FB95A36A2968A603001C69F6 /* UsuarioFormController.swift in Sources */,
+				FBA421EB2971CE28005C994B /* DepartamentoCollectionViewController.swift in Sources */,
+				FB4CAF4C295BC25200E060CA /* ViewController.swift in Sources */,
+				FBC65B7829678269009D9E3A /* DepartamentoController.swift in Sources */,
+				FBDF9F712966411D00B29E85 /* DepartamentoTableViewCell.swift in Sources */,
+				FB989A482975DC1A00C1DC6E /* BusquedaEspecificaViewController.swift in Sources */,
+				FBE4C1F92970DDB000C20E78 /* AreaCollectionViewController.swift in Sources */,
+				FB1F4A382971E29E005F844F /* DepartamentoCollectionViewCell.swift in Sources */,
+				FBB40CDA295CD1F60074C1DA /* Departamento.swift in Sources */,
+				FBE751E8298477620070B658 /* CompraFinalizadaViewController.swift in Sources */,
+				FB4579A62968D359003CBCC1 /* UusarioViewModel.swift in Sources */,
+				FB4CAF52295BC25200E060CA /* JangelEcommerce.xcdatamodeld in Sources */,
+				FB4CAF48295BC25200E060CA /* AppDelegate.swift in Sources */,
+				FB504D3829663D9300B2C1EF /* DepartamentoViewModel.swift in Sources */,
+				FB4579A32968D28E003CBCC1 /* Usuario.swift in Sources */,
+				FBAA954829808BC8008562A2 /* CarritoViewController.swift in Sources */,
+				FB9E2C9D296C795100534AC0 /* UsuarioTableViewController.swift in Sources */,
+				FBB40CD8295CD1DC0074C1DA /* Proveedor.swift in Sources */,
+				FB30CE1E296F3C3B00DD6585 /* AreaViewModel.swift in Sources */,
+				FBB40CD6295CD1C80074C1DA /* Producto.swift in Sources */,
+				FB0F5CA2295F554B00B73C07 /* GetAllTableViewController.swift in Sources */,
+				FBAA954629805FEC008562A2 /* CarritoViewModel.swift in Sources */,
+				FB9E2CA0296C7B2C00534AC0 /* usuarioTableViewCell.swift in Sources */,
+				FB504D3B29663FA200B2C1EF /* DepartamentoTableViewController.swift in Sources */,
+				FB1B7AD72982F2F9002E416B /* Venta.swift in Sources */,
+				FB1B7ADC2983119B002E416B /* VentaViewController.swift in Sources */,
+				FBB40CDE295CD4380074C1DA /* Result.swift in Sources */,
+				FB1B7AD92982F41C002E416B /* VentaViewModel.swift in Sources */,
+				FB19A5C42970783E00214555 /* ProductoCollectionViewController.swift in Sources */,
+				FB4CAF63295BC2AB00E060CA /* DB.swift in Sources */,
+				FBFC9C9A29819838001B88FA /* CarritoTableViewCell.swift in Sources */,
+				FBB40CDC295CD2030074C1DA /* Area.swift in Sources */,
+				FB9BCC5F296E1D6900E3FC53 /* Registrarse.swift in Sources */,
+				FB542C6B297F12F400CA3AEE /* pruebasTableViewController.swift in Sources */,
+				FB0422D1296E32BB004F19A2 /* ProveedorViewModel.swift in Sources */,
+				FB7B38DD2970D4110001CA61 /* ProductoCollectionViewCell.swift in Sources */,
+				FBB40CE0295CE6840074C1DA /* ProductoViewModel.swift in Sources */,
+				FBCB293529776CCA0073B061 /* usuariologin.swift in Sources */,
+				FB542C6E297F166C00CA3AEE /* DetailProductoTableViewCell.swift in Sources */,
+				FB4CAF4A295BC25200E060CA /* SceneDelegate.swift in Sources */,
+				A744C02729875CBA002B93F8 /* InicialTabBarViewController.swift in Sources */,
+				FBAA954129805EA9008562A2 /* Carrito.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBCB2936297771830073B061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBCB293F297771830073B061 /* JangelEcommerceUITestsLaunchTests.swift in Sources */,
+				FBCB293D297771830073B061 /* JangelEcommerceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB19D78D29774A4500E9035D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB4CAF43295BC25200E060CA /* JangelEcommerce */;
+			targetProxy = FB19D78C29774A4500E9035D /* PBXContainerItemProxy */;
+		};
+		FBCB2941297771830073B061 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB4CAF43295BC25200E060CA /* JangelEcommerce */;
+			targetProxy = FBCB2940297771830073B061 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB4CAF4D295BC25200E060CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB4CAF4E295BC25200E060CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB4CAF55295BC25300E060CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB4CAF56295BC25300E060CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB19D78F29774A4500E9035D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.JangelEcommerceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JangelEcommerce.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JangelEcommerce";
+			};
+			name = Debug;
+		};
+		FB19D79029774A4500E9035D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.JangelEcommerceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JangelEcommerce.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JangelEcommerce";
+			};
+			name = Release;
+		};
+		FB4CAF59295BC25300E060CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB4CAF5A295BC25300E060CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB4CAF5C295BC25300E060CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76C8F0705FC66BF9DED8AFFA /* Pods-JangelEcommerce.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JangelEcommerce/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.JangelEcommerce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB4CAF5D295BC25300E060CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AA061977D82F1EFEF73160C /* Pods-JangelEcommerce.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JangelEcommerce/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.JangelEcommerce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FBCB2943297771830073B061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.JangelEcommerceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JangelEcommerce;
+			};
+			name = Debug;
+		};
+		FBCB2944297771830073B061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.JangelEcommerceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JangelEcommerce;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB19D78E29774A4500E9035D /* Build configuration list for PBXNativeTarget "JangelEcommerceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB19D78F29774A4500E9035D /* Debug */,
+				FB19D79029774A4500E9035D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB4CAF3F295BC25100E060CA /* Build configuration list for PBXProject "JangelEcommerce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB4CAF59295BC25300E060CA /* Debug */,
+				FB4CAF5A295BC25300E060CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB4CAF5B295BC25300E060CA /* Build configuration list for PBXNativeTarget "JangelEcommerce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB4CAF5C295BC25300E060CA /* Debug */,
+				FB4CAF5D295BC25300E060CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBCB2942297771830073B061 /* Build configuration list for PBXNativeTarget "JangelEcommerceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBCB2943297771830073B061 /* Debug */,
+				FBCB2944297771830073B061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FB9BCC4D296DCB4F00E3FC53 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FB19D79129774A5100E9035D /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB9BCC4D296DCB4F00E3FC53 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		FB8CD13D297880960058145A /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB9BCC4D296DCB4F00E3FC53 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		FB9BCC4E296DCB4F00E3FC53 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB9BCC4D296DCB4F00E3FC53 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		FB9BCC50296DCB4F00E3FC53 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB9BCC4D296DCB4F00E3FC53 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		FB9BCC52296DCB4F00E3FC53 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB9BCC4D296DCB4F00E3FC53 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		FB9BCC54296DCB4F00E3FC53 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB9BCC4D296DCB4F00E3FC53 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		FB9BCC56296DCB4F00E3FC53 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB9BCC4D296DCB4F00E3FC53 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		FB9BCC5A296DCB4F00E3FC53 /* FirebaseDynamicLinks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB9BCC4D296DCB4F00E3FC53 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDynamicLinks;
+		};
+		FBA0C95F297B01D20066D49E /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB9BCC4D296DCB4F00E3FC53 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		FB4CAF50295BC25200E060CA /* JangelEcommerce.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FB4CAF51295BC25200E060CA /* JangelEcommerce.xcdatamodel */,
+			);
+			currentVersion = FB4CAF51295BC25200E060CA /* JangelEcommerce.xcdatamodel */;
+			path = JangelEcommerce.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FB4CAF3C295BC25100E060CA /* Project object */;
+}
